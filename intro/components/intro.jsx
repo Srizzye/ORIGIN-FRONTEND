@@ -14,17 +14,20 @@ const Intro = () => {
     // Cleanup function to avoid memory leaks
     return () => clearTimeout(timer);
   }, []);
+  <script src="../js/intro.js"></script>;
 
   return (
-    <div className="intro-container">
-      {/* LOGO */}
-      <img src={logoBlack} alt="ORIGIN Logo" className="logo" />
+    <div className="cbody">
+      <div className="intro-container">
+        {/* LOGO */}
+        <img src={logoBlack} alt="ORIGIN Logo" className="logo" />
 
-      {/* TAGLINE */}
-      <p className="tagline">WHERE STYLE BEGINS</p>
+        {/* TAGLINE */}
+        <p className="tagline">WHERE STYLE BEGINS</p>
 
-      {/* LINE */}
-      <span className="line"></span>
+        {/* LINE */}
+        <span className="line"></span>
+      </div>
     </div>
   );
 };
