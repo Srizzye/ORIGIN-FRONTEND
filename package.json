@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "origin_frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -26,5 +26,9 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "author": "",
+  "license": "ISC"
 }
