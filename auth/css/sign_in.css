@@ -10,12 +10,13 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-.cbody {
+
+body {
   background: var(--light-bg);
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
@@ -42,6 +43,7 @@
 .auth-container {
   display: flex;
   height: 100vh;
+  width: 100%;
 }
 
 /* LEFT */
@@ -209,15 +211,16 @@ input::placeholder {
 }
 
 /* RIGHT CONTAINER */
+
 .auth-right {
   flex: 1;
   position: relative;
-  background: url("../assets/sign_in_image.png") center / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  flex-shrink: 0;
 }
 
 /* BLACK OVERLAY */
